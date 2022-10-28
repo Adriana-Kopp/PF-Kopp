@@ -25,7 +25,11 @@ footer {
 }
 
 .container-form {
-  background-color: #19ad8e;
+  text-align: center;
+  background-color: #99cf8d;
+  background-image: url("../Imagenes/hojas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .img-edit {
@@ -61,6 +65,7 @@ footer {
 .row-header {
   background-color: #19ad8e;
 }
+
 .from-right {
   animation: from-right 1.5s ease;
 }
