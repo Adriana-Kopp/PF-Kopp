@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="shortcut icon"
-      href="../Imagenes/logodefi.svg"
+      href="../imagenes/logodefi.svg"
       type="image/x-icon"
     />
     <link rel="stylesheet" href="../css/style.css" />
@@ -37,7 +37,7 @@
         <div class="container">
           <a class="navbar-brand" href="../index.html">
             <img
-              src="../Imagenes/botany - copia (II)-paint.png"
+              src="../imagenes/botany - copia (II)-paint.png"
               alt="Logo de la empresa"
             />
           </a>
@@ -88,92 +88,109 @@
       </nav>
     </header>
     <main>
-      <div class="contaeiner">
+      <div
+        class="contaeiner d-md-flex justify-content-between align-items-center"
+      >
         <div class="row">
-          <h1>Contacto</h1>
-        </div>
-        <div class="row">
+          <div class="row">
+            <h1>Contacto:</h1>
+          </div>
           <p class="lead">
             Estimado cliente, si necesita contactarnos por cualquier motivo
             relacionado a una compra online escribanos a info@botany.com
             indicando su número de pedido.
           </p>
         </div>
-        <div class="row">
-          <form class="row g-3">
-            <div class="col-md-6">
-              <label for="inputEmail4" class="form-label">Nombre</label>
-              <input type="email" class="form-control" id="inputEmail4" />
-            </div>
-            <div class="col-md-6">
-              <label for="inputPassword4" class="form-label">Apellido</label>
-              <input type="password" class="form-control" id="inputPassword4" />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress" class="form-label"
-                >Correo electrónico</label
-              >
-              <input
-                type="text"
-                class="form-control"
-                id="inputAddress"
-                placeholder="forexample@gmail.com"
-              />
-            </div>
-            <div class="col-12">
-              <label for="inputAddress2" class="form-label">Teléfono</label>
-            </div>
-            <div class="col-md-4">
-              <label for="inputCity" class="form-label">Ubicación</label>
-              <input type="text" class="form-control" id="inputCity" />
-            </div>
-
-            <div class="col-md-4">
-              <label for="inputCity" class="form-label">Localidad</label>
-              <input type="text" class="form-control" id="inputCity" />
-            </div>
-
-            <div class="col-md-4">
-              <label for="inputCity" class="form-label">Código postal</label>
-              <input type="text" class="form-control" id="inputCity" />
-            </div>
-
-            <div class="col-12">
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  id="gridCheck"
-                />
-                <label class="form-check-label" for="gridCheck">
-                  Recibir ofertas
-                </label>
+        <div class="d-md-flex justify-content-between align-items-center">
+          <div class="row">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Nombre</label>
+                <input type="email" class="form-control" id="inputEmail4" />
               </div>
-            </div>
-            <div class="col-12">
-              <button type="submit" class="btn btn-primary">ACEPTAR</button>
-            </div>
-          </form>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Apellido</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="inputPassword4"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label"
+                  >Correo electrónico</label
+                >
+                <input
+                  type="text"
+                  class="form-control"
+                  id="inputAddress"
+                  placeholder="forexample@gmail.com"
+                />
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Teléfono</label>
+              </div>
+              <div class="col-md-4">
+                <label for="inputCity" class="form-label">Ubicación</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+
+              <div class="col-md-4">
+                <label for="inputCity" class="form-label">Localidad</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+
+              <div class="col-md-4">
+                <label for="inputCity" class="form-label">Código postal</label>
+                <input type="text" class="form-control" id="inputCity" />
+              </div>
+
+              <div class="col-12">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    id="gridCheck"
+                  />
+                  <label class="form-check-label" for="gridCheck">
+                    Recibir ofertas
+                  </label>
+                </div>
+              </div>
+              <div class="form-floating">
+                <textarea
+                  class="form-control"
+                  placeholder="Leave a comment here"
+                  id="floatingTextarea2"
+                  style="height: 100px"
+                ></textarea>
+                <label for="floatingTextarea2">Mensaje...</label>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">ACEPTAR</button>
+              </div>
+            </form>
+          </div>
         </div>
       </div>
 
       <div class="container m-5 align-items-center">
         <div class="row">
-          <div class="col">
+          <div class="col-12 col-md-4">
             <img src="../imagenes/callus.png" alt="LLamenos" />
             <div class="row">
               <h3>LLamenos</h3>
               <p>34567890</p>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-4">
             <img src="../imagenes/mail.png" alt="Contactenos" />
             <div class="row">
               <h3>Escribanos</h3>
               <p>consultas@botany.com</p>
             </div>
           </div>
-          <div class="col">
+          <div class="col-12 col-md-4">
             <img src="../imagenes/localition.png" alt="Localicenos" />
             <div class="row">
               <h3>Localicenos</h3>
