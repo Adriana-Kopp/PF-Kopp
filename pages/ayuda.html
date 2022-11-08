@@ -33,7 +33,7 @@
 
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg fixed-top text-white">
+      <nav class="navbar navbar-expand-lg fixed-top text-white overflow-x">
         <div class="container">
           <a class="navbar-brand" href="../index.html">
             <img
@@ -92,75 +92,124 @@
         <div class="row m-5">
           <h1>¿Cómo podemos ayudarte?</h1>
         </div>
-        <div class="row">
-          <div class="col m-5">
-            <div class="btn-group">
-              <button
-                type="button"
-                class="btn btn-secondary dropdown-toggle"
-                data-bs-toggle="dropdown"
-                data-bs-display="static"
-                aria-expanded="false"
-              >
-                Preguntas frecuentes:
-              </button>
-              <ul class="dropdown-menu dropdown-menu-lg-end">
-                <li>
-                  <button class="dropdown-item" type="button">
-                    ¿Cómo comprar?
-                  </button>
-                </li>
-                <li>
-                  <button class="dropdown-item" type="button">
-                    ¿Cuáles son los métodos de pago?
-                  </button>
-                </li>
-                <li>
-                  <button class="dropdown-item" type="button">
-                    ¿Cuál es la compra mínima?
-                  </button>
-                </li>
-                <li>
-                  <button class="dropdown-item" type="button">
-                    ¿Es seguro comprar en este sitio?
-                  </button>
-                </li>
-              </ul>
+        <img src="../Imagenes/ask.png" alt="Preguntas?" />
+      </div>
+
+      <div class="accordion p-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              ¿Cómo comprar?
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse show"
+            aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Voluptas ab
+              cupiditate eius! Tenetur nam recusandae, ex ut veniam vero?
+              Molestiae doloremque aliquam cum hic eaque optio ipsam porro eius
+              ullam nemo praesentium corporis, voluptatum veritatis voluptate,
+              repellendus fugiat iure libero amet quaerat alias? Maiores, est
+              tempore minima ex saepe suscipit.
             </div>
           </div>
-          <div class="col">
-            <img src="../Imagenes/ask.png" alt="Preguntas?" />
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              ¿Cuáles son los métodos de pago?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> Lorem
+              ipsum dolor, sit amet consectetur adipisicing elit. Molestiae illo
+              perspiciatis ipsa dolores maxime quos quisquam natus, voluptatem,
+              quod laudantium iure quibusdam iste cum soluta aspernatur. In
+              error a et!
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingThree">
+            <button
+              class="accordion-button collapsed"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseThree"
+              aria-expanded="false"
+              aria-controls="collapseThree"
+            >
+              ¿Cuál es la compra mínima?
+            </button>
+          </h2>
+          <div
+            id="collapseThree"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingThree"
+            data-bs-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Quia aut
+              quisquam recusandae, similique suscipit, distinctio iure neque ut
+              at praesentium impedit qui accusantium, molestiae perspiciatis
+              eveniet dolor natus. Labore voluptatibus quos iste aut
+              perspiciatis tempore quasi, quae inventore dolores a.
+            </div>
           </div>
         </div>
       </div>
 
       <div
-        class="container-form d-md-flex justify-content-between align-items-center text-center"
+        class="container-form p-5 justify-content-between align-items-center text-center"
       >
-        <div class="row">
-          <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label display-5"
-                >Recibí beneficios exclusivos!</label
-              >
-              <input
-                type="email"
-                class="form-control"
-                id="exampleInputEmail1"
-                placeholder="Ingresa tu mail"
-              />
-            </div>
-            <div id="emailHelp" class="form-text">
-              <strong>
-                Nunca compartiremos su correo electrónico con nadie más.
-              </strong>
-            </div>
-            <button type="button" class="btn btn-dark">Subscribirme</button>
-          </form>
-        </div>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label display-5"
+              >Recibí beneficios exclusivos!</label
+            >
+            <input
+              type="email"
+              class="form-control"
+              id="exampleInputEmail1"
+              placeholder="Ingresa tu mail"
+            />
+          </div>
+          <div id="emailHelp" class="form-text">
+            <strong>
+              Nunca compartiremos su correo electrónico con nadie más.
+            </strong>
+          </div>
+          <button type="button" class="btn btn-dark">Subscribirme</button>
+        </form>
       </div>
 
-      <div class="container m-5 align-items-center">
+      <div class="container p-5">
         <div class="row">
           <div class="col-12 col-md-4">
             <img src="../Imagenes/callus.png" alt="LLamenos" />

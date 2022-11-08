@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   padding-top: 6.5rem;
 }
@@ -78,5 +84,11 @@ footer {
   100% {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img-edit {
+    display: none;
   }
 }
