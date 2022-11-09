@@ -1,0 +1,44 @@
+.img-edit {
+  background-image: linear-gradient(
+      rgba(107, 107, 107, 0.7),
+      rgba(241, 241, 241, 0.7)
+    ),
+    url("../Imagenes/fondo-ppal2.png");
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity 1s;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.img-animation {
+  animation: fadeIn 3s ease;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    filter: blur(20px);
+  }
+  10% {
+    opacity: 1;
+    filter: brightness(2) blur(10px);
+  }
+}
+
+.from-right {
+  animation: from-right 1.5s ease;
+}
+
+@keyframes from-right {
+  0% {
+    opacity: 0;
+    transform: translateX(80px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}

@@ -1,13 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  padding-top: 6.5rem;
-}
-
 .navbar {
   background-image: linear-gradient(to left, #19ad8e, #99cf8d);
 }
@@ -16,12 +6,18 @@ main {
   text-align: center;
 }
 
-footer {
-  text-align: center;
-  background-color: #99cf8d;
-  background-image: url("../Imagenes/hojas.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+body {
+  padding-top: 6.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row-header {
+  background-color: #19ad8e;
 }
 
 .style-list {
@@ -39,16 +35,11 @@ footer {
 }
 
 .img-edit {
-  background-image: linear-gradient(
-      rgba(107, 107, 107, 0.7),
-      rgba(241, 241, 241, 0.7)
-    ),
-    url("../Imagenes/fondo-ppal2.png");
+  background-image: linear-gradient(rgba(107, 107, 107, 0.7), rgba(241, 241, 241, 0.7)), url("../Imagenes/fondo-ppal2.png");
   cursor: pointer;
   opacity: 0;
   transition: opacity 1s;
 }
-
 .img-edit:hover {
   opacity: 1;
 }
@@ -67,11 +58,6 @@ footer {
     filter: brightness(2) blur(10px);
   }
 }
-
-.row-header {
-  background-color: #19ad8e;
-}
-
 .from-right {
   animation: from-right 1.5s ease;
 }
@@ -86,9 +72,18 @@ footer {
     transform: translateX(0);
   }
 }
+footer {
+  text-align: center;
+  background-color: #99cf8d;
+  background-image: url("../Imagenes/hojas.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 @media screen and (max-width: 600px) {
   .img-edit {
     display: none;
   }
 }
+
+/*# sourceMappingURL=style.css.map */
