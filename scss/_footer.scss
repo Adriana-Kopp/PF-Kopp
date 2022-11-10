@@ -1,6 +1,6 @@
 footer {
   @include text-center;
-  background-color: #99cf8d;
+  background-color: $primary-color;
   background-image: url("../Imagenes/hojas.png");
   @include background-repeat_and_size;
 }
