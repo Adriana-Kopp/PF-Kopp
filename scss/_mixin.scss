@@ -1,0 +1,7 @@
+@mixin text-center {
+  text-align: center;
+}
+@mixin background-repeat_and_size {
+  background-repeat: no-repeat;
+  background-size: cover;
+}

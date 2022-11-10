@@ -5,13 +5,12 @@
 }
 
 .container-form {
-  text-align: center;
-  background-color: #99cf8d;
+  @include text-center;
+  background-color: $primary-color;
   background-image: url("../Imagenes/hojas.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  @include background-repeat_and_size;
 }
 
 .row-header {
-  background-color: #19ad8e;
+  background-color: $secondary-color;
 }
