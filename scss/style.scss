@@ -1,5 +1,6 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "variables";
+@import "mixin";
 @import "navbar";
 @import "main";
 @import "body";
@@ -8,4 +9,3 @@
 @import "img-and-animations";
 @import "footer";
 @import "@media";
-@import "mixin";

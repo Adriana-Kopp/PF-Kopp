@@ -4,9 +4,7 @@
   "description": "Botany, es una empresa especializada en el área de producción\r natural de fármacos y nuestra actividad consiste en la recolección\r y acopio de plantas medicinales para utilizarlas de forma\r comercial o terapéutica. Este emprendimiento familiar crece día\r tras día gracias a cada uno de los clientes que nos eligen y\r apoyan. Buscamos safisfacer las necesidades de las personas, sobre\r todo, con productos naturales, orgánicos y ecológicos. La salud\r siempre está en primer lugar.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+    "compile:sass": "sass --watch scss/style.scss css/style.css"
   },
   "repository": {
     "type": "git",
