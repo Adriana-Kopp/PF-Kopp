@@ -10779,6 +10779,20 @@ main {
   text-align: center;
 }
 
+.backgrund-form {
+  background-image: url("../Imagenes/fondo_form_contact.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black solid 2px;
+}
+
+.background-contact {
+  background-image: url("../Imagenes/fondo-de-iconos-contacto.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border: black solid 2px;
+}
+
 body {
   padding-top: 7rem;
 }
@@ -10805,6 +10819,14 @@ body {
 
 .row-header {
   background-color: #19ad8e;
+}
+
+.box-contact {
+  display: grid;
+  align-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-content: space-around;
 }
 
 .img-edit {

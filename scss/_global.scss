@@ -14,3 +14,49 @@
 .row-header {
   background-color: $secondary-color;
 }
+
+.box-contact {
+  display: grid;
+  align-items: center;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+  justify-content: space-around;
+}
+
+.container-box {
+  display: grid;
+  width: auto;
+  padding-top: 25px;
+  grid-template-areas: "eleccion pago envio";
+}
+
+.icono-eleccion {
+  grid-area: eleccion;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-image: url("../Imagenes/fondo-de-iconos-contacto.png");
+  grid-column-gap: 15px;
+}
+
+.icono-pago {
+  grid-area: pago;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-image: url("../Imagenes/fondo-de-iconos-contacto.png");
+}
+
+.icono-envio {
+  grid-area: envio;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  background-image: url("../Imagenes/fondo-de-iconos-contacto.png");
+}

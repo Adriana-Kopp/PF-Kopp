@@ -1,3 +1,9 @@
 main {
   @include text-center;
 }
+
+.backgrund-form {
+  background-image: url("../Imagenes/fondo_form_contact.png");
+  @include background-repeat_and_size;
+  border: black solid 2px;
+}
